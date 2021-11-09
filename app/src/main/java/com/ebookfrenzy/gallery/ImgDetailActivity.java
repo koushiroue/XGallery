@@ -47,7 +47,7 @@ public class ImgDetailActivity extends AppCompatActivity {
     @Override
     public boolean onTouchEvent(MotionEvent motionEvent) {
         // inside on touch event method we are calling on
-        // touch event method and pasing our motion event to it.
+        // touch event method and passing our motion event to it.
         scaleGestureDetector.onTouchEvent(motionEvent);
         return true;
     }
